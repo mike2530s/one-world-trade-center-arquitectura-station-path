@@ -7,9 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime data
 node_modules
-dist
+
+# Production build
+# Comenta o elimina la siguiente línea si 'dist' es necesario para el despliegue
+# dist
+
 dist-ssr
+
+# Local files
 *.local
 
 # Editor directories and files
@@ -22,4 +29,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
 .env
