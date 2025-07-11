@@ -211,4 +211,4 @@ const init = () => {
 // Initialize when document is ready
 $(() => {
     init();
-});
+});    
