@@ -30,7 +30,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop') center/cover;
+  background: url('https://imgs.search.brave.com/1zr-zplmptf6-vtpETU7Uq_cU1EUTw2hKXnZ4jJTn-k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEz/OTczNDA4NC9waG90/by9vY3VsdXMtc3Rh/dGlvbi1uZXcteW9y/ay1jaXR5LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1SZGJI/M3JjNHF5T3B5SjdP/VFE0RVk3eW53c0hF/UDVXNmIxQ0dYUmhZ/VExJPQ') center/cover;
   opacity: 0.1;
   z-index: 1;
 }
