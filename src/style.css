@@ -737,6 +737,44 @@ body {
   text-align: center;
 }
 
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navigation-help {
+    bottom: 15px; /* Slightly closer to the bottom for better screen usage */
+    padding: 8px 16px;
+    max-width: 90%; /* Prevents it from stretching too wide on smaller screens */
+    border-radius: 20px; /* Slightly smaller radius for a compact look */
+  }
+
+  .navigation-help p {
+    font-size: 0.75rem; /* Slightly smaller font for better fit */
+    line-height: 1.4; /* Improved readability */
+  }
+
+  .navigation-help a {
+    color: #5962e2; /* Matches your theme’s accent color */
+    text-decoration: none; /* Cleaner look for links */
+  }
+
+  .navigation-help a:hover {
+    text-decoration: underline; /* Subtle hover effect for touch devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation-help {
+    bottom: 10px; /* Closer to the bottom for very small screens */
+    padding: 6px 12px; /* Tighter padding for compact devices */
+    max-width: 85%; /* Further constrain width */
+    border-radius: 15px; /* Even smaller radius */
+  }
+
+  .navigation-help p {
+    font-size: 0.7rem; /* Smaller font for tiny screens */
+    line-height: 1.3;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .project-intro {
