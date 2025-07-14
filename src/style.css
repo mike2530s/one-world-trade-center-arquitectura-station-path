@@ -577,11 +577,16 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 50%;
   height: 100%;
 }
 
+/* MODIFICACIONES PRINCIPALES: Cambio de proporciones */
+.content__left {
+  width: 75%; /* Aumentado de 50% a 75% para hacer la imagen más grande */
+}
+
 .content__right {
+  width: 25%; /* Reducido de 50% a 25% para hacer el cuadro de color más pequeño */
   right: 0;
   left: auto;
 }
@@ -614,6 +619,7 @@ body {
   object-fit: cover;
   z-index: 1;
 }
+
 .content__left h1 {
   position: relative;
   z-index: 3;
@@ -654,21 +660,21 @@ body {
   font-family: 'Merriweather', serif;
   text-align: left;
   color: #FFFFFF !important;
-  font-size: clamp(1rem, 1.3vw, 1.2rem);
-  padding: 0 clamp(2rem, 6vw, 4rem);
-  line-height: 1.7;
+  font-size: clamp(0.8rem, 1.1vw, 1rem); /* Reducido el tamaño de fuente */
+  padding: 0 clamp(1rem, 3vw, 2rem); /* Reducido el padding */
+  line-height: 1.6; /* Reducido el line-height */
   font-weight: 300;
   margin: 0;
   opacity: 0.95;
-  max-width: 600px;
+  max-width: 400px; /* Reducido el max-width */
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.2);
   border-radius: 15px;
-  padding: 2rem clamp(2rem, 6vw, 4rem);
+  padding: 1.5rem clamp(1rem, 3vw, 2rem); /* Reducido el padding */
 }
 
 .content__right .content__main p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem; /* Reducido el margin-bottom */
   color: #FFFFFF !important;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
@@ -676,22 +682,22 @@ body {
 .content__right .content__main p:last-child {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.8em;
+  font-size: 0.7em; /* Reducido el tamaño de fuente */
   color: #5962e2 !important;
   font-weight: 400;
   border-top: 2px solid #5962e2;
-  padding-top: 1rem;
-  margin-top: 2rem;
+  padding-top: 0.8rem; /* Reducido el padding-top */
+  margin-top: 1.5rem; /* Reducido el margin-top */
   text-shadow: none;
   background: rgba(255,255,255,0.1);
-  padding: 1rem;
+  padding: 0.8rem; /* Reducido el padding */
   border-radius: 8px;
 }
 
 .content__right .content__index {
-  font-size: clamp(15vh, 25vh, 20rem);
+  font-size: clamp(8vh, 15vh, 12rem); /* Reducido el tamaño de fuente */
   position: absolute;
-  right: -2vh;
+  right: -1vh; /* Ajustado la posición */
   top: 50%;
   transform: translateY(-50%);
   opacity: 0.08;
@@ -701,249 +707,15 @@ body {
   z-index: 1;
 }
 
-
-/* Phase-specific backgrounds and colors */
-/* [data-type="concept"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
+.content__right .content__main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem); /* Reducido el tamaño de fuente */
+  font-weight: 600;
+  margin-bottom: 1rem; /* Reducido el margin-bottom */
+  color: #FFFFFF;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
-[data-type="concept"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #D3D3D3 100%);
-}
-
-[data-type="design"] .content__left {
-  background: linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%);
-}
-
-[data-type="design"] .content__right {
-  background: linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%);
-}
-
-[data-type="documentation"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="documentation"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="visualization"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="visualization"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="construction"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="construction"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="delivery"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="delivery"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
- */
-/* Additional carousel types */
-/* [data-type="living"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="living"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="kitchen"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #5962e2 100%);
-}
-
-[data-type="kitchen"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #5962e2 100%);
-}
-
-[data-type="bedroom"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #FF6B6B 100%);
-}
-
-[data-type="bedroom"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #FF6B6B 100%);
-}
-
-[data-type="bathroom"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #D3D3D3 100%);
-}
-
-[data-type="bathroom"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #D3D3D3 100%);
-}
-
-[data-type="study"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="study"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="terrace"] .content__left {
-  background: linear-gradient(135deg, #D3D3D3 0%, #5962e2 100%);
-}
-
-[data-type="terrace"] .content__right {
-  background: linear-gradient(135deg, #D3D3D3 0%, #5962e2 100%);
-}
-
-[data-type="lobby"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="lobby"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="gym"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="gym"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="pool"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="pool"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="salon"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #D3D3D3 100%);
-}
-
-[data-type="salon"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #D3D3D3 100%);
-}
-
-[data-type="garden"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="garden"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="parking"] .content__left {
-  background: linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%);
-}
-
-[data-type="parking"] .content__right {
-  background: linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%);
-}
-
-[data-type="structure"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #FF6B6B 100%);
-}
-
-[data-type="structure"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #FF6B6B 100%);
-}
-
-[data-type="facade"] .content__left {
-  background: linear-gradient(135deg, #D3D3D3 0%, #5962e2 100%);
-}
-
-[data-type="facade"] .content__right {
-  background: linear-gradient(135deg, #D3D3D3 0%, #5962e2 100%);
-}
-
-[data-type="installations"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="installations"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="finishes"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #D3D3D3 100%);
-}
-
-[data-type="finishes"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #D3D3D3 100%);
-}
-
-[data-type="lighting"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="lighting"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="sustainability"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="sustainability"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="exterior"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #D3D3D3 100%);
-}
-
-[data-type="exterior"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #D3D3D3 100%);
-}
-
-[data-type="interior-final"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="interior-final"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #A9A9A9 100%);
-}
-
-[data-type="amenities"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #D3D3D3 100%);
-}
-
-[data-type="amenities"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #D3D3D3 100%);
-}
-
-[data-type="technology"] .content__left {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="technology"] .content__right {
-  background: linear-gradient(135deg, #FF6B6B 0%, #A9A9A9 100%);
-}
-
-[data-type="community"] .content__left {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="community"] .content__right {
-  background: linear-gradient(135deg, #5962e2 0%, #FF6B6B 100%);
-}
-
-[data-type="legacy"] .content__left {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
-
-[data-type="legacy"] .content__right {
-  background: linear-gradient(135deg, #A9A9A9 0%, #5962e2 100%);
-}
- */
 /* Navigation Help */
 .navigation-help {
   position: fixed;
@@ -1021,8 +793,8 @@ body {
   }
 
   .content__right .content__main {
-    font-size: 1rem;
-    padding: 0 2rem;
+    font-size: 0.9rem;
+    padding: 0 1.5rem;
   }
 
   .navigation-help {
@@ -1058,7 +830,7 @@ body {
   }
 
   .content__right .content__main {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 
   .welcome-header h1 {
@@ -1077,12 +849,3 @@ body {
     font-size: 2.5rem;
   }
 }
-.content__right .content__main h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  color: #FFFFFF;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-}
-
