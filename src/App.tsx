@@ -403,7 +403,7 @@ function App() {
               </div>
 
               {/* Fase 3: Documentación Técnica */}
-              <div className="spinner__face" data-index="2" data-bg="#1ABC9C" data-type="documentation">
+              <div className="spinner__face" data-index="2" data-bg="#34495E" data-type="documentation">
                 <div className="content">
                   <div className="content__left">
                     <h1>DOCUMENTACIÓN<br /><span>TÉCNICA</span></h1>
@@ -420,7 +420,7 @@ function App() {
               </div>
 
               {/* Fase 4: Visualización 3D */}
-              <div className="spinner__face" data-index="3" data-bg="#E74C3C" data-type="visualization">
+              <div className="spinner__face" data-index="3" data-bg="#34495E" data-type="visualization">
                 <div className="content">
                   <div className="content__left">
                     <h1>VISUALIZACIÓN<br /><span>3D</span></h1>
@@ -437,7 +437,7 @@ function App() {
               </div>
 
               {/* Fase 5: Construcción */}
-              <div className="spinner__face" data-index="4" data-bg="#F39C12" data-type="construction">
+              <div className="spinner__face" data-index="4" data-bg="#d1d2e9" data-type="construction">
                 <div className="content">
                   <div className="content__left">
                     <h1>CONSTRUCCIÓN<br /><span>Y SUPERVISIÓN</span></h1>
@@ -454,7 +454,7 @@ function App() {
               </div>
 
               {/* Fase 6: Entrega Final */}
-              <div className="spinner__face" data-index="5" data-bg="#9B59B6" data-type="delivery">
+              <div className="spinner__face" data-index="5" data-bg="#34495E" data-type="delivery">
                 <div className="content">
                   <div className="content__left">
                     <h1>ENTREGA<br /><span>FINAL</span></h1>
@@ -504,7 +504,7 @@ function App() {
           <div className="carousel__stage">
             <div className="spinner spinner--left">
               
-              <div className="spinner__face js-active" data-index="0" data-bg="#8E44AD" data-type="living">
+              <div className="spinner__face js-active" data-index="0" data-bg="#34495E" data-type="living">
                 <div className="content">
                   <div className="content__left">
                     <h1>SALA<br /><span>PRINCIPAL</span></h1>
@@ -520,7 +520,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="1" data-bg="#27AE60" data-type="kitchen">
+              <div className="spinner__face" data-index="1" data-bg="#34495E" data-type="kitchen">
                 <div className="content">
                   <div className="content__left">
                     <h1>COCINA<br /><span>GOURMET</span></h1>
@@ -536,7 +536,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="2" data-bg="#E67E22" data-type="bedroom">
+              <div className="spinner__face" data-index="2" data-bg="#34495E" data-type="bedroom">
                 <div className="content">
                   <div className="content__left">
                     <h1>RECÁMARA<br /><span>PRINCIPAL</span></h1>
@@ -552,7 +552,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="3" data-bg="#3498DB" data-type="bathroom">
+              <div className="spinner__face" data-index="3" data-bg="#34495E" data-type="bathroom">
                 <div className="content">
                   <div className="content__left">
                     <h1>BAÑO<br /><span>PRINCIPAL</span></h1>
@@ -568,7 +568,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="4" data-bg="#E74C3C" data-type="study">
+              <div className="spinner__face" data-index="4" data-bg="#34495E" data-type="study">
                 <div className="content">
                   <div className="content__left">
                     <h1>ESTUDIO<br /><span>HOME OFFICE</span></h1>
@@ -650,7 +650,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="1" data-bg="#2980B9" data-type="gym">
+              <div className="spinner__face" data-index="1" data-bg="#34495E" data-type="gym">
                 <div className="content">
                   <div className="content__left">
                     <h1>GIMNASIO<br /><span>FITNESS</span></h1>
@@ -666,7 +666,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="2" data-bg="#8E44AD" data-type="pool">
+              <div className="spinner__face" data-index="2" data-bg="#34495E" data-type="pool">
                 <div className="content">
                   <div className="content__left">
                     <h1>ALBERCA<br /><span>RECREATIVA</span></h1>
@@ -682,7 +682,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="3" data-bg="#D35400" data-type="salon">
+              <div className="spinner__face" data-index="3" data-bg="#34495E" data-type="salon">
                 <div className="content">
                   <div className="content__left">
                     <h1>SALÓN<br /><span>DE EVENTOS</span></h1>
@@ -698,7 +698,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="4" data-bg="#27AE60" data-type="garden">
+              <div className="spinner__face" data-index="4" data-bg="#34495E" data-type="garden">
                 <div className="content">
                   <div className="content__left">
                     <h1>JARDÍN<br /><span>CENTRAL</span></h1>
@@ -796,7 +796,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="2" data-bg="#1ABC9C" data-type="installations">
+              <div className="spinner__face" data-index="2" data-bg="#34495E" data-type="installations">
                 <div className="content">
                   <div className="content__left">
                     <h1>INSTALACIONES<br /><span>ESPECIALES</span></h1>
@@ -828,7 +828,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="4" data-bg="#9B59B6" data-type="lighting">
+              <div className="spinner__face" data-index="4" data-bg="#34495E" data-type="lighting">
                 <div className="content">
                   <div className="content__left">
                     <h1>ILUMINACIÓN<br /><span>ARQUITECTÓNICA</span></h1>
@@ -844,7 +844,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="5" data-bg="#E67E22" data-type="sustainability">
+              <div className="spinner__face" data-index="5" data-bg="#34495E" data-type="sustainability">
                 <div className="content">
                   <div className="content__left">
                     <h1>SUSTENTABILIDAD<br /><span>AMBIENTAL</span></h1>
@@ -910,7 +910,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="1" data-bg="#27AE60" data-type="interior-final">
+              <div className="spinner__face" data-index="1" data-bg="#34495E" data-type="interior-final">
                 <div className="content">
                   <div className="content__left">
                     <h1>INTERIORES<br /><span>TERMINADOS</span></h1>
@@ -926,7 +926,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="2" data-bg="#3498DB" data-type="amenities">
+              <div className="spinner__face" data-index="2" data-bg="#34495E" data-type="amenities">
                 <div className="content">
                   <div className="content__left">
                     <h1>AMENIDADES<br /><span>COMPLETAS</span></h1>
@@ -942,7 +942,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="3" data-bg="#E74C3C" data-type="technology">
+              <div className="spinner__face" data-index="3" data-bg="#34495E" data-type="technology">
                 <div className="content">
                   <div className="content__left">
                     <h1>TECNOLOGÍA<br /><span>OPERATIVA</span></h1>
@@ -974,7 +974,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="spinner__face" data-index="5" data-bg="#9B59B6" data-type="legacy">
+              <div className="spinner__face" data-index="5" data-bg="#34495E" data-type="legacy">
                 <div className="content">
                   <div className="content__left">
                     <h1>LEGADO<br /><span>ARQUITECTÓNICO</span></h1>

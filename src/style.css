@@ -580,13 +580,13 @@ body {
   height: 100%;
 }
 
-/* MODIFICACIONES PRINCIPALES: Cambio de proporciones */
+/* MODIFICACIONES PRINCIPALES: Cambio de proporciones de 25% a 15% */
 .content__left {
-  width: 75%; /* Aumentado de 50% a 75% para hacer la imagen más grande */
+  width: 85%; /* Aumentado de 75% a 85% para la imagen */
 }
 
 .content__right {
-  width: 25%; /* Reducido de 50% a 25% para hacer el cuadro de color más pequeño */
+  width: 15%; /* Reducido de 25% a 15% para el cuadro de color */
   right: 0;
   left: auto;
 }
@@ -660,21 +660,21 @@ body {
   font-family: 'Merriweather', serif;
   text-align: left;
   color: #FFFFFF !important;
-  font-size: clamp(0.8rem, 1.1vw, 1rem); /* Reducido el tamaño de fuente */
-  padding: 0 clamp(1rem, 3vw, 2rem); /* Reducido el padding */
-  line-height: 1.6; /* Reducido el line-height */
+  font-size: clamp(0.6rem, 0.9vw, 0.8rem); /* Reducido aún más el tamaño de fuente */
+  padding: 0 clamp(0.5rem, 1.5vw, 1rem); /* Reducido el padding para el nuevo tamaño */
+  line-height: 1.4; /* Reducido el line-height */
   font-weight: 300;
   margin: 0;
   opacity: 0.95;
-  max-width: 400px; /* Reducido el max-width */
+  max-width: 300px; /* Reducido el max-width para el nuevo tamaño */
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.2);
   border-radius: 15px;
-  padding: 1.5rem clamp(1rem, 3vw, 2rem); /* Reducido el padding */
+  padding: 1rem clamp(0.5rem, 1.5vw, 1rem); /* Reducido el padding */
 }
 
 .content__right .content__main p {
-  margin-bottom: 1rem; /* Reducido el margin-bottom */
+  margin-bottom: 0.8rem; /* Reducido el margin-bottom */
   color: #FFFFFF !important;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
@@ -682,22 +682,22 @@ body {
 .content__right .content__main p:last-child {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.7em; /* Reducido el tamaño de fuente */
+  font-size: 0.6em; /* Reducido el tamaño de fuente */
   color: #5962e2 !important;
   font-weight: 400;
   border-top: 2px solid #5962e2;
-  padding-top: 0.8rem; /* Reducido el padding-top */
-  margin-top: 1.5rem; /* Reducido el margin-top */
+  padding-top: 0.6rem; /* Reducido el padding-top */
+  margin-top: 1rem; /* Reducido el margin-top */
   text-shadow: none;
   background: rgba(255,255,255,0.1);
-  padding: 0.8rem; /* Reducido el padding */
+  padding: 0.6rem; /* Reducido el padding */
   border-radius: 8px;
 }
 
 .content__right .content__index {
-  font-size: clamp(8vh, 15vh, 12rem); /* Reducido el tamaño de fuente */
+  font-size: clamp(6vh, 10vh, 8rem); /* Reducido considerablemente el tamaño de fuente */
   position: absolute;
-  right: -1vh; /* Ajustado la posición */
+  right: -0.5vh; /* Ajustado la posición */
   top: 50%;
   transform: translateY(-50%);
   opacity: 0.08;
@@ -709,9 +709,9 @@ body {
 
 .content__right .content__main h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: clamp(1.5rem, 3vw, 2rem); /* Reducido el tamaño de fuente */
+  font-size: clamp(1.2rem, 2vw, 1.5rem); /* Reducido el tamaño de fuente */
   font-weight: 600;
-  margin-bottom: 1rem; /* Reducido el margin-bottom */
+  margin-bottom: 0.8rem; /* Reducido el margin-bottom */
   color: #FFFFFF;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
@@ -793,8 +793,8 @@ body {
   }
 
   .content__right .content__main {
-    font-size: 0.9rem;
-    padding: 0 1.5rem;
+    font-size: 0.7rem;
+    padding: 0 1rem;
   }
 
   .navigation-help {
@@ -830,7 +830,7 @@ body {
   }
 
   .content__right .content__main {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   .welcome-header h1 {
